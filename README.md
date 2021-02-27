@@ -17,7 +17,7 @@ npm start
 #npm build
 ```
 
-> my-app/built
+> my-app/build
 
 
 ## python for android
