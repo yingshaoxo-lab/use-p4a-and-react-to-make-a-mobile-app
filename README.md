@@ -11,10 +11,12 @@ https://developer.android.com/studio
 https://reactjs.org/docs/create-a-new-react-app.html
 
 ```
+sudo npm install -g create-react-app
 npx create-react-app my-app
 cd my-app
+
 npm start
-#npm build
+npm build
 ```
 
 > my-app/build
@@ -35,3 +37,15 @@ export NDKAPI="21"  # Minimum supported API version of your application
 #p4a clean_dists
 p4a apk --private . --package=xyz.yingshaoxo.freedom --name "Freedom" --version 0.1 --bootstrap=webview --requirements=python3,flask,flask_cors,protobuf --permission INTERNET --permission WRITE_EXTERNAL_STORAGE --port=8888 --icon icon.png --blacklist ./blacklist.txt
 ```
+
+```
+sudo apt install jave-8-jar
+sudo apt install openjdk-8-jdk
+sudo update-alternatives --config java
+```
+
+```
+sudo pip3 install cython
+```
+
+https://github.com/kivy/python-for-android/issues/2228

@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__,
-            static_folder='./my-app/build/',
+            static_folder='./htmls/',
             static_url_path="/ui/" # http://127.0.0.1/ui/
             )
 CORS(app)
